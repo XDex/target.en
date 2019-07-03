@@ -44,7 +44,7 @@ You can specify percentage targets for each experience. In this case, a random n
 1. A customer requests a page from your server and it displays in the browser.
 2. A first party cookie is set in the customer's browser to store customer behavior.
 3. The page calls the targeting system.
-4. Content displays based on the rules of your campaign.
+4. Content displays based on the rules of your activity.
 
 ### Auto-Allocate
 
@@ -98,9 +98,7 @@ Core Edge site locations contain both a data collection center and a data proces
 
 Adobe currently has data centers on several continents, including multiple regional locations across North America, Europe, and Asia.
 
-Rather than respond to all targeting requests from a single location, requests from the Edge environment closest to the point of request mitigate the impact of network/Internet travel time.
-
-The network also serves as a fail-over mechanism. If one edge node is not functioning, the request is redirected to the next nearest node, to ensure that the user is not served default content (a typical backup response when a request cannot be completed).
+Rather than respond to all targeting requests from a single location, requests are processed by the Edge environment closest to the visitor, thus mitigating the impact of network/Internet travel time.
 
 >[!IMPORTANT]
 >
@@ -156,7 +154,7 @@ Guidelines were presented in a [Google Webmaster Central Blog](https://webmaster
 
   It's also important to consider the accessibility of the page you're testing. If the page is not accessible to the search engines and was never designed to rank in organic search in the first place, such as a dedicated landing page for an email campaign, then none of the considerations above apply.
 
-Googles states that following these guidelines "should result in your tests having little or no impact on your site in search results."
+Google states that following these guidelines "should result in your tests having little or no impact on your site in search results."
 
 In addition to these guidelines, Google also provides one more guideline in the documentation to their Content Experiments tool:
 
