@@ -130,7 +130,7 @@ Can be part of any type of test or activity. No additional programming is requir
 
 **dynamic mbox**
 
-Enables Rich Internet Applications (RIAs) to manipulate HTML after the page has already loaded by using technologies like DHTML and AJAX.
+Enables Rich Internet Applications (RIAs) to manipulate HTML after the page has already loaded, by using technologies like DHTML and AJAX.
 
 **dynamic offer**
 
@@ -232,7 +232,7 @@ Prior to Target 16.3.1, [!DNL Target] required a call to [!DNL mbox.js] to creat
 
 **mbox parameter**
 
-Passed in the page, not the URL. Rendered uniquely for each visitor, they are used to pass data from your database and to track sales data or to run Adobe Recommendations. Also known as page parameter.
+Passed in the page, not the URL. Parameters are used to pass data from your database and to track sales data or to run Adobe Recommendations. Also known as page parameter.
 
 **multivariate test**
 
@@ -250,7 +250,7 @@ An offer is the content displayed within an mbox during activities and tests. An
 
 **opt-out link**
 
-Enables visitors to opt-out of all counting and content delivery.
+Enables visitors to opt-out of all tracking and content delivery.
 
 ## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
@@ -274,7 +274,7 @@ Redirects a visitor to a different web page. Use this Redirector similarly to ho
 
 **referring URL parameter**
 
-Passes values to the destination page's mbox as referring URL parameters and values. Use these to target on the visitor's source, for example.
+Passes values to the destination page's mbox as referring URL parameters and values. Use these to target on the visitor's origin, for example.
 
 **role**
 
@@ -286,17 +286,17 @@ Use remote offers to host content outside of [!DNL Target] that [!DNL Target] re
 
 **reports**
 
-Reports provide information about the progress and results of your activities that help you make decisions based on your data. Report data can help you decide when to end a test, show you which experience of offer is the winner, and provide insights or learnings you need to determine next actions.
+Reports provide information about the progress and results of your activities that help you make decisions based on your data. Report data can help you decide when to end a test, show you which experience or offer is the winner, and provide insights you need to determine next actions.
 
 ## S {#section_9482B06EBB09486784492F838289E54D}
 
 **script profile parameter**
 
-Similar to in-mbox profile parameter, but defined with JavaScript in Target itself rather than in the page code.
+Similar to in-mbox profile parameter, but defined with JavaScript that runs on the Target backend, rather than in the browser.
 
 **segment**
 
-A specified set of criteria used for targeting an activity. Only visitors who meet the criteria see the content of an activity targeted to that segment. Some segments are reusable across multiple activities and other are specific to an activity.
+A specified set of criteria used for targeting an activity. Only visitors who meet the criteria see the content of an activity targeted to that segment. Some segments are reusable across multiple activities and others are specific to an activity.
 
 **segment filter**
 
@@ -304,7 +304,7 @@ A report filter used to display reports related to a specific segment.
 
 **single-page application**
 
-A single-page application (SPA) is a web application or web site that fits on a single web page to provide a more fluid user experience similar to a desktop application.
+A single-page application (SPA) is a web application or web site that fits on a single web page to provide a more fluid user experience, similar to a desktop application.
 
 **smart targeter profile parameter**
 
@@ -312,23 +312,23 @@ Similar to script profile parameter, but predefined to provide useful targeting 
 
 **success metrics**
 
-The parameters used to measure the success of an activity. Success metrics include key business measures that enable you to determine the success of a given experience or offer in a Target activity. For example, you can determine if a new offer increases your revenue per visitor or adding an item to a shopping cart. Success metrics can be useful for discovering issues with registration, ordering, or purchase funnels, but also simply with visitor or customer engagement. 
+The parameters used to measure the success of an activity. Success metrics include key business measures that enable you to determine the success of a given experience or offer in a Target activity. For example, you can determine if a new offer or adding an item to a shopping cart increases your revenue per visitor. Success metrics can be useful for discovering issues with registration, ordering, or purchase funnels, but also simply with visitor or customer engagement. 
 
 ## T {#section_1841144841AF41169AF1E83B90C18292}
 
 **test**
 
-An activity that compares two or more experiences against the success metrics you specify so you can choose the experience that is most likely to provide the results you want.
+An activity that compares two or more experiences against the success metrics you specify, so you can choose the experience that is most likely to provide the results you want.
 
 **time on site**
 
-An engagement type that represents the time spent in the visit (in seconds) from the point the visitor sees the activity's first display mbox to the load of the final page in the session with an mbox.
+An engagement type that represents the time spent in the visit (in seconds) from the point the visitor sees the activity's first display mbox to the load of the final page in a session with an mbox.
 
 ## U {#section_6407B81326FF43049D92265746E6C402}
 
 **URL parameters**
 
-All referring page and page URL variables are automatically passed to an mbox whenever the page with the mbox is viewed by any visitor. These URL variables are then available to use through the display targeting or segment filters in reports.
+All referring page and page URL variables are automatically passed to an mbox whenever the page with the mbox is viewed by any visitor. These URL variables are then available to use through display targeting or segment filters in reports.
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
@@ -338,7 +338,7 @@ A visitor is any person who accesses your site. A visitor is evaluated against a
 
 **Visual Experience Composer**
 
-In Target Standard, a WYSIWYG user interface that lets you easily create and test personalized experiences and offers in the site context. You can create experiences and offers for Target activities by dragging and dropping, swapping, and modifying the layout and content of a web page (or offer) or mobile web page.
+In Target Standard, a WYSIWYG user interface that lets you easily create and test personalized experiences and offers in the site context. You can create experiences and offers for Target activities by dragging and dropping, swapping, and modifying the layout and content of a web page (or offer).
 
 ## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
